@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'fff_tusjbold';
+    src: url('../fonts/FFF_Tusj-webfont.eot');
+    src: url('../fonts/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FFF_Tusj-webfont.woff') format('woff'),
+         url('../fonts/FFF_Tusj-webfont.ttf') format('truetype'),
+         url('../fonts/FFF_Tusj-webfont.svg#fff_tusjbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NarzissDropsRegular';
+    src: url("../fonts/narziss-drops-webfont.eot")/*tpa=http://lamoulade.com/fonts/narziss-drops-webfont.eot*/;
+    src: url("../fonts/narziss-drops-webfont.eot-#iefix")/*tpa=http://lamoulade.com/fonts/narziss-drops-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url("../fonts/narziss-drops-webfont.woff")/*tpa=http://lamoulade.com/fonts/narziss-drops-webfont.woff*/ format('woff'),
+         url("../fonts/narziss-drops-webfont.ttf")/*tpa=http://lamoulade.com/fonts/narziss-drops-webfont.ttf*/ format('truetype'),
+         url("../fonts/narziss-drops-webfont.svg#NarzissDropsRegular")/*tpa=http://lamoulade.com/fonts/narziss-drops-webfont.svg#NarzissDropsRegular*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-wgmodp');
+	src:url('../fonts/icomoon.eot?#iefix-wgmodp') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-wgmodp') format('woff'),
+		url('../fonts/icomoon.ttf?-wgmodp') format('truetype'),
+		url('../fonts/icomoon.svg?-wgmodp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	padding-right:15px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style:none;
+	font-weight:100 ;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	cursor:pointer;
+
+	/* Better Font Rendering =========== */
+
+}
+
+.icon-home:before {
+	content: "\e600";
+	cursor:pointer;
+	color:#999;
+}
+.icon-mobile:before {
+	content: "\e601";
+}
+.icon-mail:before {
+	content: "\e602";
+}
+.icon-twitter:before {
+	content: "\e603";
+}
+.icon-facebook:before {
+	content: "\e604";
+}
+.icon-googleplus:before {
+	content: "\e605";
+}
+.icon-linkedin:before {
+	content: "\e606";
+}
